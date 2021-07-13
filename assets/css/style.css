@@ -74,7 +74,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../css/#hero-image') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -112,7 +112,9 @@ h1, h2 {
     position: absolute;
 }
 
-#club ethos {
+/* club ethos */
+
+#club-ethos {
     height: 600px;
 }
 
@@ -120,25 +122,21 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    
-
 }
 
-#centre-about {
+#center-about {
     width: 33%;
-    margin:0 auto;
-    background-color: green;
+    margin: 0 auto;
 }
 
 hr {
-    border-top: #3a3a3a;
+    border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
@@ -149,14 +147,42 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-
 }
 
-.left-about-heading {
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
 
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+circle-cover-bg {
+    background: url('../css/hero-image.webp') no-repeat;
+    height: 100%;
+    
 }
