@@ -277,6 +277,13 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -303,4 +310,15 @@ footer {
     width: 90%;
     height: 1200px;
     margin: 0 auto;
+}
+
+.left-about-heading .right-about-heading h2 {
+width: 100%;
+
+
+}
+
+.left-about-heading .right-about-heading h2 {
+text-align: center;
+padding: 0 20px;
 }
